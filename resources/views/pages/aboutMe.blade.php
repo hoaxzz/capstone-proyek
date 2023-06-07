@@ -21,7 +21,7 @@
     </div>
     <!--fitur 2-->
     <div data-aos="fade-up">
-      <div class="row ">
+      <div class="row m-2">
         <h1>TEAM PROJECT</h1>
         <div class="card my-2 mx-3" style="width: 18rem;">
             <img src="asset/img/PasPhoto.jpg" height="250px" class="card-img-top rounded-2 mt-2" alt="...">
@@ -48,7 +48,7 @@
             </div>
           </div>
           <div class="card my-2 mx-3" style="width: 18rem;">
-            <img src="asset/img/profile.png" height="250px" class="card-img-top rounded-2 mt-2" alt="...">
+            <img src="asset/img/fotoAndika.jpg" height="250px" class="card-img-top rounded-2 mt-2" alt="...">
             <div class="card-body">
               <h4 class="card-title">Andika Syahrul Firdan</h4>
               <p class="card-text">Andika Syahrul Firdan adalah mahasiswa Universitas Islam Sultan Agung saat ini sedang mengerjakan Capstone Project MSIB X Dicoding Batch 4 sebagai <strong>WEB DEVELOPMENT</strong></p>

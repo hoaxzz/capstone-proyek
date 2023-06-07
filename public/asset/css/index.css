@@ -38,6 +38,7 @@ html{
   text-align: center;
 }
 
+
 #hamburger{
   float:right;
   padding: 0px 0px;
@@ -93,6 +94,10 @@ html{
     color: #0b0b0b;
     display: none;
   }
+
+.show{
+  background-color:rgba(61, 171, 185, 0.992);
+}
   /*hero*/
 
  .lead {
@@ -125,7 +130,6 @@ html{
   }
 
   .row.mb-2 h1{
-    /* font-family: 'Fredoka One', cursive; */
     text-align: center;
     padding:20px;
   }
@@ -153,12 +157,12 @@ html{
 }
 .feature.col h2{
   text-align: center;
-  /* font-family: 'Fredoka One', cursive; */
+
   color:  rgba(61, 171, 185, 0.992);
 }
 .feature.col h3{
   text-align: center;
-  /* font-family: 'Fredoka One', cursive; */
+
   color:  rgba(0, 0, 0, 0.992)
 }
 .feature.col p{
@@ -172,7 +176,7 @@ html{
  right: 50%;
 }
 .row h1{
-  /* font-family: 'Fredoka One', cursive; */
+
   text-align: center;
   padding:20px;
 }
@@ -189,6 +193,7 @@ html{
   box-shadow: rgba(61, 171, 185, 0.992) 0px 3px 8px;
 }
 .card{
+  margin: 20px 20px 20px 20px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -210,7 +215,7 @@ html{
 }
 .blog h1{
   text-align: center;
-  /* font-family: 'Fredoka One', cursive; */
+
   color:  rgba(0, 0, 0, 0.992);
   padding: 20px;
 }
@@ -240,21 +245,19 @@ font-size: 20px;
 	background-position: center;
 }
 
-  .carousel-caption {
-    bottom: 3rem;
-    z-index: 10;
-  }
 
-  /* .carousel-item {
-    height: 32rem;
-    background-color: #cbc9c9;
-  } */
-  .carousel-item > img {
-    position: absolute;
-    top: 0;
-    right: 0;
-    min-width: 100%;
-  }
+.carousel-item {
+  /* height: 32rem; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #cbc9c9;
+}
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
   .carousel.slide{
   height: 100%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 4px;
@@ -283,7 +286,7 @@ font-size: 20px;
   }
 
 .SO {
-  /* font-family: 'Fredoka One', cursive; */
+
   font-size: 20px;
   font-weight: 100;
 }
@@ -329,3 +332,5 @@ background-color: white;
   color: rgb(0, 0, 0);
   font-size: 20px;
  }
+
+ 

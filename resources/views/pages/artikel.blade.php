@@ -1,7 +1,6 @@
 @extends('layouts/main')
 
 @section('container')
-  <main>
     <!--hero-->
     <!-- <div id="carouselExampleCaptions" class="carousel" data-bs-ride="false"> -->
     <div class="carousel-inner">
@@ -121,9 +120,7 @@
 
       </div>
 
-  </main>
 
-  </footer>
 </body>
 
 @endsection

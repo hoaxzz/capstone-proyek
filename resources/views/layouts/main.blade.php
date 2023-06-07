@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SEJAHTERA-ONLINE | HOME </title>
+  <title>SEJAHTERA-ONLINE | {{ $tittle }} </title>
   <!--style-->
   
   <link href="asset/css/index.css" rel="stylesheet">
@@ -23,8 +23,8 @@
 
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark ">
-    <div class="container px-5">
+  {{-- <nav class="navbar navbar-expand-lg navbar-dark ">
+    <div class="container">
         <a class="navbar-brand" href="/">Sejahtera Online</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -40,12 +40,12 @@
               <li class="nav-item"><a class="nav-link" href="/artikel">ARTIKEL</a></li>
               <li class="nav-item"><a class="nav-link" href="/cariDokter">CARI DOKTER</a></li>
               <li class="nav-item"><a class="nav-link" href="/aboutMe">ABOUT ME</a></li>
-              <li class="nav-item"><a class="nav-link" href="/">LOGIN</a></li>
+              <li class="nav-item"><a class="nav-link" href="/login">LOGIN</a></li>
 
             </ul>
         </div>
     </div>
-  </nav>
+  </nav> --}}
   {{-- <nav class="navbar">
     <div class="container-fluid">
       <a class="navbar-brand" href="/">
@@ -97,7 +97,7 @@
     </form>
   </div> --}}
 
-  
+  @include('partials.navbar')
   <main>
     {{-- shadow dom --}}
     @yield('container')

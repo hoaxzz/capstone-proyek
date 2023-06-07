@@ -18,23 +18,42 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', function () {
-    return view('home');
+    return view('./pages/home', [
+        "tittle"=>"HOME"
+    ]);
 });
 Route::get('/artikel', function () {
-    return view('artikel');
+    return view('./pages/artikel',[
+        "tittle"=>"ARTIKE"
+    ]);
 });
 Route::get('/pageLansia', function () {
-    return view('pageLansia');
+    return view('./pages/pageLansia',[
+        "tittle"=>"TES KESEHATAN LANSIA"
+    ]);
 });
 Route::get('/pageMental', function () {
-    return view('pageMental');
+    return view('./pages/pageMental',[
+        "tittle"=>"TES KESEHATAN MENTAL"
+    ]);
 });
 Route::get('/pageBMI', function () {
-    return view('pageBMI');
+    return view('./pages/pageBMI',[
+        "tittle"=>"TES BERAT BADAN"
+    ]);
 });
 Route::get('/cariDokter', function () {
-    return view('cariDokter');
+    return view('./pages/cariDokter',[
+        "tittle"=>"CARI DOKTER"
+    ]);
 });
 Route::get('/aboutMe', function () {
-    return view('aboutMe');
+    return view('./pages/aboutMe',[
+        "tittle"=>"ABOUT ME"
+    ]);
+});
+Route::get('/login', function () {
+    return view('./pages/login',[
+        "tittle"=>"HALAMAN LOGIN"
+    ]);
 });

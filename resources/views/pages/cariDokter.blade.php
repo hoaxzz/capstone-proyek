@@ -34,6 +34,8 @@
         <div class="row col-12">
           <h1>ALL DOKTER</h1>
         {{-- penyambungan ke database --}}
+
+        
         
         </div>
     </div>
