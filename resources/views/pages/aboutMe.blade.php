@@ -40,7 +40,7 @@
             </div>
           </div>
           <div class="card my-2 mx-3" style="width: 18rem;">
-            <img src="asset/img/profile.png" height="250px" class="card-img-top rounded-2 mt-2" alt="...">
+            <img src="asset/img/fotoKakGabriel.jpg" height="250px" class="card-img-top rounded-2 mt-2" alt="...">
             <div class="card-body">
               <h4 class="card-title">Gabrielle Shierly Oktavianney</h4>
               <p class="card-text">Gabrielle Shierly Oktavianney adalah mahasiswa dari Universitas Pembangunan Nasional Veteran Jawa Timur saat ini sedang mengerjakan Capstone Project MSIB X Dicoding Batch 4 sebagai <strong>WEB DEVELOPMENT</strong></p>
