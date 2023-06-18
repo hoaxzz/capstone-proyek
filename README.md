@@ -23,11 +23,11 @@
 https://github.com/hoaxzz/capstone-proyek
 
 # About FoodIntake
-**FHI (Family healthing Information)** adalah website yang bertujuan untuk memberikan banyak informasi tentang kesehatan yang dibutuhkan oleh seluruh masyarakat di Indonesia dan informasi yang kami sajikan juga mudah untuk di pahami oleh orang awam. Nantinya terdapat juga fitur-fitur yang dapat dimanfaatkan oleh pengguna untuk terus dapat menjaga kesehatannya, Kami memilih tema ini karena masih banyak masyarakat yang kurang peduli dan teredukasi dalam menjaga kesehatannya.
+**SO (Sejahtera Online)** adalah website yang bertujuan untuk memberikan banyak informasi tentang kesehatan yang dibutuhkan oleh seluruh masyarakat di Indonesia dan informasi yang kami sajikan juga mudah untuk di pahami oleh orang awam. Nantinya terdapat juga fitur-fitur yang dapat dimanfaatkan oleh pengguna untuk terus dapat menjaga kesehatannya, Kami memilih tema ini karena masih banyak masyarakat yang kurang peduli dan teredukasi dalam menjaga kesehatannya.
 
 # Project Resource
 
-Berikut Resources yang dibutuhkan dalam pengembangan Website FHI (Family healthing Information):
+Berikut Resources yang dibutuhkan dalam pengembangan Website SO (Sejahtera online):
 <ul>
   <li>Bahasa Pemograman :</li>
     <ul>
